@@ -5,14 +5,25 @@ casos de câncer de mama.
 
 No relatório deve constar:
 
-- Nome dos componentes (grupos de tamanho máximo = 3);
+- Nome dos componentes
+
+     Gabriella Selbach, Geovana Silveira e Luiza Cruz  
 
 - Erro médio quadratico
 
-- Número de épocas usadas;
 
-- Porcentagem do dataset usada para aprendizado e teste;
+- Número de épocas usadas
+
+     100
+
+- Porcentagem do dataset usada para aprendizado e teste
+
+     34% para teste e 66% para aprendizagem
 
 - Topologia e arquitetura da RNA;
+     
+     Arquitetura: Feedforward de Camadas Múltiplas
+     
 
 - Análise do comportamento da rede
+
