@@ -14,7 +14,7 @@ No relatório deve constar:
 
 - Número de épocas usadas
 
-     100
+     500
 
 - Porcentagem do dataset usada para aprendizado e teste
 
