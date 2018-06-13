@@ -1,8 +1,8 @@
-#################################################################################################################### 
-#  Trabalho FIA - Rede Neural Artificial                                                           			  	   #
-#  Redes Neurais Multiplayer Perception capaz de classificar corretamente casos de cancer de mama  				   #
-#  Grupo: Gabriella Selbach, Geovana Silveira, Luiza Cruz                                          				   #
-####################################################################################################################
+########################################################################################################################################## 
+#  Trabalho FIA - Rede Neural Artificial                                                           			  	                         #
+#  Redes Neurais Multiplayer Perception capaz de classificar corretamente casos de cancer de mama  				                         #
+#  Grupo: Gabriella Selbach, Geovana Silveira, Luiza Cruz                                          				                         #
+##########################################################################################################################################
 
 # importa classe MLPClassifier que implementa o algoritmo de multiplayer perceptron que realiza o treinamento usando backpropagation
 from sklearn.neural_network import MLPClassifier
@@ -21,8 +21,6 @@ import pandas as pd
 dados = load_breast_cancer()
 
 # organiza os dados
-classificacao = dados['target_names'] # armazena as classificacoes disponiveis para os casos de cancer de mama: malignant e benign
-caracteristicas = dados['feature_names'] # armazena as caracteristicas dos tumores como por exemplo, o seu tamanho, raio e textura 
 x = dados['data']  # armazena os valores referentes as caracteristicas dos tumores
 y = dados['target'] # armazena o mapeamento para binario das classificacao dos casos representando tumores malignos como 0 e tumores benignos como 1 
 
