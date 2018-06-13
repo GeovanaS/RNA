@@ -11,10 +11,11 @@ No relatório deve constar:
 
 - Erro médio quadratico
 
+     O erro médio quadrático é usado principalmente para comparar valores de estimadores, e considerando uma margem adequada de aceitação para o erro, podemos observar se nosso cálculo está certo, ou por exemplo está viciado.
 
 - Número de épocas usadas
 
-     500
+     300
 
 - Porcentagem do dataset usada para aprendizado e teste
 
@@ -22,8 +23,8 @@ No relatório deve constar:
 
 - Topologia e arquitetura da RNA;
      
-     Arquitetura: Feedforward de Camadas Múltiplas
-     
+     A topologia trata sobre as diferentes composições estruturais, na nossa rede por exemplo diferentes quantidades de neurônios. Já a arquitetura irá abordar as  disposições por exemplo como os neurônios vão ficar um em relação a outro.
+     Para o desenvolvimento deste trabalho estamos utilizando a topologia FeedForward com arquitetura de camadas múltiplas
 
 - Análise do comportamento da rede
 
